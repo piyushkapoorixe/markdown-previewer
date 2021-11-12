@@ -1,0 +1,19 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+    animation: myanimation 30s infinite;
+  }
+
+  @keyframes myanimation {
+    0% {background-color: brown;}
+    10%{background-color:yellow;}
+    20%{background-color: mediumslateblue;}
+    30%{background-color: aqua;}
+    40%{background-color: orange;}
+    50%{background-color: mediumspringgreen;}
+    60%{background-color: moccasin;}
+    70%{background-color:yellowgreen;}
+    80%{background-color:mediumvioletred;}
+    90%{background-color: magenta;}
+    100%{background-color: brown;}
+  }
